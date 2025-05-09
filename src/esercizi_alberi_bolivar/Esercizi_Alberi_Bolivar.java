@@ -15,9 +15,7 @@ public class Esercizi_Alberi_Bolivar {
      */
     public static void main(String[] args) {
         
-        MAINDADO dado = new MAINDADO();
         
-        dado.MainDado();
         
     }
     

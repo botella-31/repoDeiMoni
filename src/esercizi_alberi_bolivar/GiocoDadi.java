@@ -12,7 +12,7 @@ public class GiocoDadi {
     
     public void Lanciadadi(Dado vett[]){
         
-        
+                
         
         for(int i = 0; i < vett.length; i++ ){
              vett[i] = new Dado();
