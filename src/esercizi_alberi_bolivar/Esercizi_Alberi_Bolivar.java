@@ -3,7 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 package esercizi_alberi_bolivar;
-
+import java.util.Scanner;
 /**
  *
  * @author Sergio
@@ -25,7 +25,11 @@ public class Esercizi_Alberi_Bolivar {
         
         Mainnodo mainnodo = new Mainnodo();
         
-        int scelta = 0;
+        MainQueue mainqueue = new MainQueue();
+        
+        Scanner scan = new Scanner(System.in);
+        
+        int scelta = scan.nextInt();
         
         switch(scelta){
             
@@ -65,6 +69,12 @@ public class Esercizi_Alberi_Bolivar {
              mainnodo.mainnodo();
              
              break;
+             
+            case 7:
+                
+                mainqueue.mainqueue();
+                
+                break;
         
     }
         
