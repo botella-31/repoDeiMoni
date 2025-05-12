@@ -10,12 +10,57 @@ package esercizi_alberi_bolivar;
  */
 public class Esercizi_Alberi_Bolivar {
 
-    /**
-     * @param args the command line arguments
-     */
+   
     public static void main(String[] args) {
         
+        MAINDADO maindado = new MAINDADO();
         
+        VectorFunz mainvector = new VectorFunz();
+        
+        VettoreIntero mainvetint = new VettoreIntero();
+        
+        VettoriStringhe mainvetString = new VettoriStringhe();
+        
+        dimearraylist mainarraylist = new dimearraylist();
+        
+        int scelta = 0;
+        
+        switch(scelta){
+            
+            case 1:
+                
+                maindado.MainDado();
+               
+                break;
+                
+            case 2:
+                
+                mainvector.esvector();
+                
+                break;
+                
+            case 3 :
+                
+                mainvetint.VettoreIntero();
+                
+                
+                break;
+        
+            case 4:
+                
+                mainvetString.vetstring();
+                
+             break;
+             
+             
+            case 5:
+                
+                mainarraylist.Dim_ArrayList();
+              break;
+              
+            case 6:
+        
+    }
         
     }
     
