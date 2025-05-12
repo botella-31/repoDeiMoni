@@ -23,6 +23,8 @@ public class Esercizi_Alberi_Bolivar {
         
         dimearraylist mainarraylist = new dimearraylist();
         
+        Mainnodo mainnodo = new Mainnodo();
+        
         int scelta = 0;
         
         switch(scelta){
@@ -59,6 +61,10 @@ public class Esercizi_Alberi_Bolivar {
               break;
               
             case 6:
+                
+             mainnodo.mainnodo();
+             
+             break;
         
     }
         
